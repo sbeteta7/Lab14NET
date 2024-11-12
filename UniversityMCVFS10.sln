@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversityMCVFS10", "UniversityMCVFS10\UniversityMCVFS10.csproj", "{83D6D923-D69E-4EF5-9568-225E7AB09C9B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Semana09", "Semana09", "{E4EC3041-3EE2-4F2A-A6BF-B83FDD8EA7FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIS12", "APIS12\APIS12.csproj", "{F32D7765-45EE-4A2F-92FB-98AA95138D54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,10 @@ Global
 		{83D6D923-D69E-4EF5-9568-225E7AB09C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D6D923-D69E-4EF5-9568-225E7AB09C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D6D923-D69E-4EF5-9568-225E7AB09C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32D7765-45EE-4A2F-92FB-98AA95138D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32D7765-45EE-4A2F-92FB-98AA95138D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32D7765-45EE-4A2F-92FB-98AA95138D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32D7765-45EE-4A2F-92FB-98AA95138D54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

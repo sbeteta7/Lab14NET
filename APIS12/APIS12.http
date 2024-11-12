@@ -1,0 +1,6 @@
+@APIS12_HostAddress = http://localhost:5269
+
+GET {{APIS12_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
