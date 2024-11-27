@@ -3,7 +3,7 @@
     public class Product
     {
 
-        // todas las dentro del contexto
+        // todas las clases dentro del contexto
         public int ProductID { get; set; }
 
         public string Name { get; set; }

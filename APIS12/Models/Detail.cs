@@ -4,7 +4,6 @@
     {
         public int DetailID { get; set; }
         public int Amount { get; set; }
-
         public float Price { get; set; }
 
         public float SubTotal { get; set; }

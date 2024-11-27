@@ -1,20 +1,10 @@
-﻿namespace APIS12.Models
+﻿namespace APIS12.Request
 {
-    public class Customer
+    public class CustomerDTO
     {
-
-        public int CustomerID { get; set; }
-
         public string FirstName { get; set; }
-
         public string LastName { get; set; }
-
         public string DocumentNumber { get; set; }
-
         public string Email { get; set; }
-
-        public Boolean Active {  get; set; }
-
-       
     }
 }
