@@ -11,7 +11,6 @@
 
         public string DocumentNumber { get; set; }
 
-        public string Email { get; set; }
 
         public Boolean Active {  get; set; }
 

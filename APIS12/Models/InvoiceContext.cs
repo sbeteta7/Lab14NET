@@ -15,7 +15,7 @@ namespace APIS12.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DEV\\SQLEXPRESS; Database=DBS12; User ID=userNeptuno; Password=123456; Integrated Security=True; Trust Server Certificate=True ");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-RS5KB90\\SQLEXPRESS2017; Database=DBS12; Integrated Security=True; Trust Server Certificate=True ");
         }
 
         // paquetes a istalar

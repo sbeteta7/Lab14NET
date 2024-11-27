@@ -3,6 +3,7 @@ using APIS12.Request;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 namespace APIS12.Controllers
 {
@@ -67,7 +68,6 @@ namespace APIS12.Controllers
             Customer customer = _invoiceContext.Customers.Where(x => x.CustomerID == request.CustomerID).FirstOrDefault();
 
             customer.DocumentNumber = request.DocumentNumber;
-            customer.Email = request.Email;
 
             _invoiceContext.Entry(customer).State = EntityState.Modified;
             _invoiceContext.SaveChanges();
@@ -90,10 +90,7 @@ namespace APIS12.Controllers
                 query = query.Where(x => x.LastName.Contains(customerRequest.lastName));
             }
 
-            if (!string.IsNullOrEmpty(customerRequest.email))
-            {
-                query = query.Where(x => x.Email.Contains(customerRequest.email));
-            }
+       
             
             return query.OrderByDescending(x => x.LastName).ToList();
 
